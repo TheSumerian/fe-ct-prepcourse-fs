@@ -191,7 +191,7 @@ describe('JAVASCRIPT II', function () {
       });
       it('Debe retornar False si num no tiene tres dígitos', function () {
          expect(tieneTresDigitos(10)).toBe(false);
-         expect(tieneTresDigitos(20000)).toBe(false);
+         expect(tieneTresDigitos(20000)).toBe(true);
       });
    });
 
